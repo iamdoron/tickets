@@ -1,0 +1,17 @@
+{
+  "name": "@iamdoron/tickets",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm t"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jimp": "^0.8.4",
+    "lodash": "^4.17.15",
+    "mkdirp": "^0.5.1",
+    "yargs": "^14.2.0"
+  }
+}
