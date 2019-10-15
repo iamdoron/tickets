@@ -33,7 +33,7 @@ async function main() {
         .print(font, sitPos.x, sitPos.y, {
           text: sit.toString(),
         })
-        .writeAsync(Path.join(outputDir, `l${line}_s${sit}.${template.getExtension()}`))
+        .writeAsync(Path.join(outputDir, `l${line.toString().padStart(4, '0')}_s${sit.toString().padStart(4, '0')}.${template.getExtension()}`))
     }
   }
 }
